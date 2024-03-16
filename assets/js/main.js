@@ -69,4 +69,14 @@ window.addEventListener('scroll', scrollActive)
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 3000,
+    delay: 350,
+})
 
+sr.reveal(`.home_img, .new_data, .care_img, .contact_content, .footer_container`);
+sr.reveal(`.home_data, .care_list, .contact_img`, { delay: 500 });
+sr.reveal(`.new_card`, { delay: 500, interval: 100 });
+sr.reveal(`.shop_card`, { interval: 100 })
