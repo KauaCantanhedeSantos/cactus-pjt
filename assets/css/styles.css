@@ -717,7 +717,7 @@ header {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 880px){
     
   /*=============== HEADER & NAV ===============*/
   header {
